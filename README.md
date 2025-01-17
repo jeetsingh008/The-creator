@@ -1,23 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 # Landing Page Project
 
 This is a fully responsive and feature-rich landing page built using **Next.js** and **Tailwind CSS**. The design includes a navigation bar, hero section with a call-to-action, animated sliders, and a footer. The project is optimized for mobile, tablet, and desktop views.
@@ -34,11 +14,31 @@ Check out the live demo here: [Landing Page](https://the-creator-q2whb9hvo-jeet-
 - **Responsive Design:** The layout adapts perfectly to various screen sizes (mobile, tablet, and desktop).
 - **Footer:** Includes essential links and contact details.
 
-## Project Setup Instructions
-
-Follow these steps to set up and run the project locally:
+## Getting Started
 
 1. Clone the repository:
    ```bash
    git clone <repository-link>
    cd <repository-folder>
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Project Setup Instructions
+
+Follow these steps to set up and run the project locally:
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
