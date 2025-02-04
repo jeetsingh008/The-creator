@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen w-full m-auto max-w-[100rem] inset-0 ">
+    <div className="min-h-screen w-full m-auto max-w-[100rem] inset-0 overflow-hidden">
       <Header />
       <HeroSection />
       <Partners />
