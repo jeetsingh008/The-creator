@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "SFproRegular";
+  src: url("/fonts/SFproRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "SFproRegular", sans-serif;
+  background-color: #F8F5F0;
+}
+
+@layer components {
+  .primary-btn {
+    @apply px-5 py-2 rounded-full bg-primary text-black hover:text-white hover:shadow-lg duration-200
+  }
+}
+
+@layer utilities {
+  .shadow-inset {
+    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.2), 
+                inset -4px -4px 10px rgba(255, 255, 255, 0.2);
+  }
 }
