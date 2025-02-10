@@ -4,7 +4,7 @@ This is a fully responsive and feature-rich landing page built using **Next.js**
 
 ## Live Demo
 
-Check out the live demo here: [Landing Page](https://the-creato-git-main-jeet-singhs-projects-3ae01a70.vercel.app/)
+Check out the live demo here: [Landing Page](https://the-creator-one.vercel.app/)
 
 ## Features
 
