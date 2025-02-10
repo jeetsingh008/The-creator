@@ -10,14 +10,13 @@ const Review = () => {
   return (
     <div>
       <div className="p-10 container w-full flex flex-col gap-6 mx-auto leading-none tracking-wider">
-        <div className="w-full text-center"></div>
 
         {/* Headings and sub-headings */}
         <div className="text-xs rounded-lg md:text-sm xl:text-base text-center">
           <p>Hear from our customers from Top YouTube Channel</p>
         </div>
         <div className="text-clamp rounded-xl font-semibold text-start inline p-2">
-          <h1 className="text-lg md:text-xl">
+          <h1 className="text-lg md:text-xl lg:text-2xl">
             We&apos;ve taught{" "}
             <span className="relative inline-block w-6 md:w-8 h-6 md:h-8 align-middle">
               <Image fill className="object-cover" src={pic1} alt="Person1" />
@@ -44,7 +43,7 @@ const Review = () => {
         </div>
 
         <div>
-          <h2 className="font-semibold text-start inline p-2">
+          <h2 className="font-semibold text-lg md:text-xl text-start inline p-2">
             Now{" "}
             <span className="relative inline-block">
               we can do
@@ -61,6 +60,11 @@ const Review = () => {
             </span>{" "}
             it for you
           </h2>
+        </div>
+        <div>
+          <p className="text-lg font-semibold p-2">
+            See what our famous clients write about us:
+          </p>
         </div>
         {/* Customer Reviews Slider*/}
         <Slider />

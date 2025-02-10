@@ -9,7 +9,7 @@ const SmallCard: FC<ComponentType> = ({ color, imageSrc }) => {
   return (
     <div
       style={{ backgroundColor: color }}
-      className="flex flex-col gap-2 min-w-[18rem] p-3 rounded-lg shadow-md"
+      className="flex flex-col gap-2 min-w-[10rem] md:min-w-[18rem] p-3 rounded-lg shadow-md"
     >
       <div className="flex justify-between ">
         <div className="relative w-6 h-6">

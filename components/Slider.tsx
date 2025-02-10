@@ -19,7 +19,7 @@ const Slider = () => {
     <motion.div className="md:mx10">
       <motion.div
         ref={corousel}
-        className="corousal text-black border-none outline-none flex h-72 p-5 cursor-grab overflow-hidden bg-blue-300 bg-gradient-to-r from-white via-white to-[#F8F5F0]"
+        className="corousal text-black border-none outline-none flex h-72 p-5 cursor-grab overflow-hidden bg-blue-300 bg-gradient-to-r from-slate-200 rounded-lg to-[#F8F5F0]"
       >
         <motion.div
           drag="x"

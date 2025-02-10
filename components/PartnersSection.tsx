@@ -6,7 +6,7 @@ import bgImage from "@/public/partnersBG.png"; // Replace with actual image
 
 const PartnersSection = () => {
   return (
-    <section className="relative p-4 min-h-[450px] md:min-h-[600px flex items-center">
+    <section className="relative p-4 min-h-[450px] md:min-h-[600px] flex items-center">
       {/* Background Image (Left Half) */}
       <div className="absolute left-12 top-14 xl:top-10 -rotate-12 w-1/2 h-full hidden lg:block">
         <div className="relative max-w-md">
@@ -45,7 +45,7 @@ const PartnersSection = () => {
         </div>
 
         {/* Card */}
-        <div className="min-h-40 w-4/5 py-4 px-10 lg:flex lg:items-center gap-4 rounded-2xl bg-white">
+        <div className="min-h-40 w-full sm:w-4/5 py-4 px-10 lg:flex lg:items-center gap-4 rounded-2xl bg-white">
           {/* Text */}
           <div className="text-center lg:text-start lg:w-1/3">
             <h1 className="text-2xl md:text-2xl font-semibold tracking-wider">

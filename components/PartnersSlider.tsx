@@ -18,7 +18,7 @@ const PartnersSlider = () => {
     <motion.div>
       <motion.div
         ref={corousel}
-        className="corousal text-black bg-gradient-to-r from-pink-100 to-white rounded-2xl flex h-48 overflow-hidden lg:overflow-visible"
+        className="corousal text-black bg-gradient-to-r from-slate-100 to-white rounded-2xl flex h-48"
       >
         <motion.div
           drag="x"
